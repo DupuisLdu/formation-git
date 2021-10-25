@@ -1,0 +1,59 @@
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	devops-exercice/
+
+nothing added to commit but untracked files present (use "git add" to track)
+imacdeadministrateur:GITLDU mac$ mkdir formation-git
+imacdeadministrateur:GITLDU mac$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	devops-exercice/
+
+nothing added to commit but untracked files present (use "git add" to track)
+imacdeadministrateur:GITLDU mac$ ls
+devops-exercice	formation-git
+imacdeadministrateur:GITLDU mac$ cd formation-git
+imacdeadministrateur:formation-git mac$ ls
+monpremiercommit.txt
+imacdeadministrateur:formation-git mac$ git add monpremiercommit.txt
+imacdeadministrateur:formation-git mac$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   monpremiercommit.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	../devops-exercice/
+
+imacdeadministrateur:formation-git mac$ git commit -m "Ajout de mon premier fichier texte" 
+[master (root-commit) 425e76e] Ajout de mon premier fichier texte
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 formation-git/monpremiercommit.txt
+imacdeadministrateur:formation-git mac$
+imacdeadministrateur:formation-git mac$ git commit -m "Ajout de mon premier fichier texte" 
+
+imacdeadministrateur:formation-git mac$ git log
+commit 425e76ee9737741da7ca694a42d905504f3e8cf8 (HEAD -> master)
+Author: DupuisLdu <Dupuisl78@yahoo.com>
+Date:   Mon Oct 25 14:08:16 2021 +0200
+
+    Ajout de mon premier fichier texte
+imacdeadministrateur:formation-git mac$ 
